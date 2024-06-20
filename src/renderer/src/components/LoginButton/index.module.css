@@ -1,0 +1,22 @@
+.button {
+  --blue: #007bff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  padding: .5rem;
+  border: 1px solid #fff;
+  background-color: transparent;
+  backdrop-filter: blur(3px);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all .15s;
+}
+.button:hover {
+  border-color: var(--blue);
+  box-shadow: 0 0 5px var(--blue);
+}
+.button:hover:active {
+  box-shadow: 0 0 15px var(--blue);
+}
